@@ -192,7 +192,7 @@ const BLOG = {
   WIDGET_PET_SWITCH_THEME: process.env.NEXT_PUBLIC_WIDGET_PET_SWITCH_THEME || true, // 点击宠物挂件切换博客主题
 
   // 音乐播放插件
-  MUSIC_PLAYER: process.env.NEXT_PUBLIC_MUSIC_PLAYER || false, // 是否使用音乐播放插件
+  MUSIC_PLAYER: process.env.NEXT_PUBLIC_MUSIC_PLAYER || true, // 是否使用音乐播放插件
   MUSIC_PLAYER_VISIBLE: process.env.NEXT_PUBLIC_MUSIC_PLAYER_VISIBLE || true, // 是否在左下角显示播放和切换，如果使用播放器，打开自动播放再隐藏，就会以类似背景音乐的方式播放，无法取消和暂停
   MUSIC_PLAYER_AUTO_PLAY:
         process.env.NEXT_PUBLIC_MUSIC_PLAYER_AUTO_PLAY || true, // 是否自动播放，不过自动播放时常不生效（移动设备不支持自动播放）
@@ -206,7 +206,8 @@ const BLOG = {
     {
       name: '风を共に舞う気持ち',
       artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
+      // url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
+      url: 'https://cf-hls-media.sndcdn.com/playlist/G8Xuk7sU3Op3.128.mp3/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLWhscy1tZWRpYS5zbmRjZG4uY29tL3BsYXlsaXN0L0c4WHVrN3NVM09wMy4xMjgubXAzL3BsYXlsaXN0Lm0zdTgqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjk3MzAxOTY4fX19XX0_&Signature=RsgEUeFwvZazFkOBTWQq2rXUL~UEMm3MeO09Pc1QgXkkrdXjKUK0SRDsXQNTdhoSxhKJigqkzQIR69kdKa7WAUFj-PTD8u8wYMbje6NXRpRLdFDnicTVyP5RfADqVWaDtLAB0jJihVzuahRNxRvXkPG66U6GMWMU0N4LxrS9qr~4rn2bq2NlKco1W0JjnHv87jlT7nYdDE4muQf7qhkwwN8Ca9PKZotuNVqeKZfGJLhHv6zJUEtmwAzZi2H0Vhjm8STTkgMQIJN3NWIcfZmHZ1omFTp86G4nrzuiL7dRyCkDw8bVXQ5Jy7cOB3TcCfVPPaGKb36lxbUA5yanDRHukA__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ&track_authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IjEyMDY4OTQxMjEiLCJyaWQiOiI5ODc0MTU3MS03YjhhLTQzYTAtOWYxNC1iODM3YjA3ZmIxMGMiLCJpYXQiOjE2OTczMDE2NTN9.6CwpeTA25FN-RidxR7cIZ8RFzgHpwEoOmzWypM-IV_c',
       cover:
             'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
     },
